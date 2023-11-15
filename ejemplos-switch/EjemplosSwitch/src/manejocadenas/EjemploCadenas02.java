@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class EjemploCadenas02 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        // ingresar datos por teclado
         entrada.useLocale(Locale.US);
         String cadenaFinal = "Datos Ingresados\n";
         
@@ -24,6 +25,7 @@ public class EjemploCadenas02 {
         
         cadenaFinal = String.format("%sCiudad:%s\n",
                 cadenaFinal, ciudad);
+        //System.out.printf("%s\n", cadenaFinal);
         
         System.out.println("Ingrese la provincia");
         String provincia = entrada.nextLine(); // 
@@ -40,5 +42,6 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
+         
     }
 }
