@@ -15,7 +15,7 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
-        char letra = pais.charAt(0);
+        char letra = pais.charAt(0);// para almacenar caracteres individuales 
         System.out.printf("%s\n", letra);
         
     }
